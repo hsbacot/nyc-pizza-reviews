@@ -1,0 +1,53 @@
+{
+  "name": "nyc-pizza-reviews",
+  "scripts": {
+    "test": "jest"
+  },
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^7.0.1",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^20.0.0",
+    "babel-loader": "7.x",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "coffee-loader": "^0.7.3",
+    "coffee-script": "^1.12.5",
+    "compression-webpack-plugin": "^0.4.0",
+    "css-loader": "^0.28.1",
+    "enzyme": "^2.8.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "glob": "^7.1.1",
+    "jest": "^20.0.0",
+    "js-yaml": "^3.8.3",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.2",
+    "path-complete-extname": "^0.1.0",
+    "postcss-loader": "^1.3.3",
+    "postcss-smart-import": "^0.6.13",
+    "precss": "^1.4.0",
+    "prop-types": "^15.5.8",
+    "rails-erb-loader": "^5.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-manifest-plugin": "^1.1.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.5"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/app/javascript/packs/__tests__"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ]
+  }
+}
